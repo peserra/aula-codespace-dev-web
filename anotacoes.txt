@@ -1,9 +1,32 @@
 usa http-server pra abrir um server configurado com url e porta
 apos esse comando, uso a aba Portas para visualizar
 outra possibilidade: usar extensoes que criam server com hot reload
-- live preview: para usar usa CS+P > show preview external browser
+- live preview: para usar usa Ctrl + Shft +P > show preview external browser
 
-o container é deletado apos 1 mes, apos isso a MS deleta.
+o container é deletado apos 1 mes, apos isso a MS deleta ele
 
-para fazer o commit:
+
+HTML basico
+
+- Hypertext Markup Language
+- é uma linguagem de marcação: serve para indicar onde vai e o que é cada elemento de texto:
+    -  anotações estruturais, semanticas (conteúdo), apresentação (negrito, italico, sublinhado), metadados (autor, data), etc.
+- o html deve ter apenas semantica, o estilo deve ficar como CSS
+
+
+SINTAXE BASICA
+
+- utilizando tags </>
+
+link: <a href="conteudo do link"> texto </a>
+    a: nome do elemento
+    href: atributo (chave-valor ou booleano)
+    texto: conteúdo (vai entre tag de abertura e fechamento, mas nem todos tem)
+
+imagem: <img src=""/> -> elemento sem conteúdo
+
+- o conteúdo pode ser outro elemento, html é um documento em árvore
+
+DOM visualzer (Document Object Model) -> arvore utilizada pelo browser para renderizar
+tb possui API orientada a objetos, que podem ser atualizados com o JS (atualização dinamica)
 
