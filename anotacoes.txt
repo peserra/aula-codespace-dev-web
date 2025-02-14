@@ -1,0 +1,9 @@
+usa http-server pra abrir um server configurado com url e porta
+apos esse comando, uso a aba Portas para visualizar
+outra possibilidade: usar extensoes que criam server com hot reload
+- live preview: para usar usa CS+P > show preview external browser
+
+o container é deletado apos 1 mes, apos isso a MS deleta.
+
+para fazer o commit:
+
